@@ -22,8 +22,9 @@ emacs r-base r-base-core r-recommended ess sox`
    * Za pomocą programu _xprop_ można sprawdzić własności okien, aby odpowiednio
 	 zmodyfikować konfiguracje w pliku _workspace-ps.json_
 	 
-   * Napisanie skryptu uruchamiającego poszczególne programy, które mają znaleźć
-     się w odpowiednich oknach, określonych w pliku workspace-ps.json
+   * Napisanie skryptu _ps_workspace.sh_ uruchamiającego poszczególne programy,
+     które mają znaleźć się w odpowiednich oknach, określonych w pliku
+     workspace-ps.json
 
    * Stworzenie skrótu klawiszowego uruchamiającego PraatStudio: dodanie do
 	 pliku config znajdującego się w folderze ~/.config/i3 linii `bindsym $mod+p exec
