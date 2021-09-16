@@ -1,0 +1,157 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.418027433050294,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 673,
+               "width": 752,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "emacs@debian",
+            "percent": 0.853090601185436,
+            "swallows": [
+               {
+               "class": "^Emacs$",
+               "instance": "^emacs-ps$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 734,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Czarna dziura",
+            "percent": 0.146909398814564,
+            "swallows": [
+               {
+               "class": "^Gnome\\-terminal$"
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^i3\\-save\\-tree\\ \\>\\ temp_temp$",
+               // "window_role": "^gnome\\-terminal\\-window\\-f4e455a7\\-0ba7\\-4fcd\\-98a1\\-5bd0b5ac8876$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.581972566949706,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "marks": [],
+            "percent": 0.853937341236241,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 700,
+                       "width": 520,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "Praat Objects",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "class": "^Praat$",
+                       "instance": "^praat$",
+                       "title": "^Praat\\ Objects$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.14606265876376,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 400,
+                       "width": 600,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "Script “/home/michal/Dropbox/Research/praatstudio/control.praat”",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Praat$",
+                       "instance": "^praat$",
+                       "title": "^Script\\ \\“\\/home\\/michal\\/Dropbox\\/Research\\/praatstudio\\/control\\.praat\\”$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 975,
+                       "width": 630,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "Praat Picture",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Praat$",
+                       "instance": "^praat$",
+                       "title": "^Praat\\ Picture$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
