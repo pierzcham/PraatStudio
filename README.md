@@ -1,7 +1,7 @@
 # PraatStudio
 ![praatstudio](./praatstudio.png)
 
-#### PraatStudio na system Linux Debian
+#### PraatStudio na system Debian Linux
 
 1. Instalacja programów składających się na PraatStudio. Wszystkie pogramy można
 zainstalować z konsoli za pomocą komendy: `sudo apt get install i3-wm praat
